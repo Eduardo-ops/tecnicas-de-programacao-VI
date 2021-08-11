@@ -51,8 +51,18 @@ myPromise()
 
 console.log('Exemplo de Async-Await')
 
-const mySecondMethod = () => {
-    console.log('Estou no segundo metodo')
+const myFuturePromise = () => {
+    return new Promise((resolved, rejected) => {
+        setTimeout(() => resolved('resolvi o trem'), 4000)
+    })
+}
+
+const mySecondMethod = async () => {
+    console.log('Estou entrando no segundo metodo')
+
+    const data = await myFuturePromise()
+    console.log(data)
+
     console.log('Estou saindo do segundo metodo')
 }
 
