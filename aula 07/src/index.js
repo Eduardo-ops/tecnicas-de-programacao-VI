@@ -16,8 +16,7 @@ app.post('/customers', (req, res) => {
 })
 
 app.get('/customers', (req, res) => {
-    const item = dataBaseCustomer.find(item => item.id === req.params.id)
-    res.send(item)
+    res.send(dataBaseCustomer)
 })
 
 app.put('/customers:id', (req, res) => {
@@ -51,8 +50,7 @@ app.post('/products', (req, res) => {
 })
 
 app.get('/products', (req, res) => {
-    const item = dataBaseProduct.find(item => item.id === req.params.id)
-    res.send(item)
+    res.send(dataBaseProduct)
 })
 
 app.put('/products:id', (req, res) => {
