@@ -10,7 +10,7 @@ const save = async (req, res) => {
     res.send(item)
 }
 
-const update = async (erq, res) => {
+const update = async (req, res) => {
     const item = await customerService.update(req.params.id, req.body)
     res.send(item)
 }

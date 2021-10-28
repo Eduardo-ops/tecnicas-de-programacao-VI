@@ -4,8 +4,8 @@ const listAll = async () => {
     return item = await customer.findAll()
 }
 
-const save = async (data) => {
-    return await customer.create(data)
+const save = async data => {
+    return item = await customer.create(data)
 }
 
 const update = async (customerId, data) => {
