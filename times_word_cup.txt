@@ -1,0 +1,99 @@
+[
+  {
+    "nome": "Algeria"
+  },
+  {
+    "nome": "Cameron"
+  },
+  {
+    "nome": "Ghana"
+  },
+  {
+    "nome": "Cote D'Ivoire"
+  },
+  {
+    "nome": "Nigeria"
+  },
+  {
+    "nome": "South Africa"
+  },
+  {
+    "nome": "Australia"
+  },
+  {
+    "nome": "Japan"
+  },
+  {
+    "nome": "North Korea"
+  },
+  {
+    "nome": "Korea Republic"
+  },
+  {
+    "nome": "Denmark"
+  },
+  {
+    "nome": "England"
+  },
+  {
+    "nome": "France"
+  },
+  {
+    "nome": "Germany"
+  },
+  {
+    "nome": "Greece"
+  },
+  {
+    "nome": "Italy"
+  },
+  {
+    "nome": "Netherlands"
+  },
+  {
+    "nome": "Portugal"
+  },
+  {
+    "nome": "Serbia"
+  },
+  {
+    "nome": "Slovakia"
+  },
+  {
+    "nome": "Slovenia"
+  },
+  {
+    "nome": "Spain"
+  },
+  {
+    "id": "23",
+    "nome": "Switzerland"
+  },
+  {
+    "nome": "Honduras"
+  },
+  {
+    "nome": "Mexico"
+  },
+  {
+    "nome": "USA"
+  },
+  {
+    "nome": "New Zealand"
+  },
+  {
+    "nome": "Argentina"
+  },
+  {
+    "nome": "Brazil"
+  },
+  {
+    "nome": "Chile"
+  },
+  {
+    "nome": "Paraguay"
+  },
+  {
+    "nome": "Uruguay"
+  }
+]
