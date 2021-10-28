@@ -1,17 +1,27 @@
-const listAll = () => {
-    console.log('Estou no listAll')
+const { customer } = require('../models/index')
+
+const listAll = async () => {
+    return item = await customer.findAll()
 }
 
-const save = (data) => {
-    console.log('Estou no save')
+const save = async (data) => {
+    return await customer.create(data)
 }
 
-const update = () => {
-    console.log('Estou no update')
+const update = async (customerId, data) => {
+    return item = await customer.update(data, {
+        where: {
+            id: customerId
+        }
+    })
 }
 
-const remove = () => {
-    console.log('Estou no remove')
+const remove = async customerId => {
+    return item = await customer.destroy({
+        where: {
+            id: customerId
+        }
+    })
 }
 
 module.exports = {

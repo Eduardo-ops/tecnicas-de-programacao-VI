@@ -1,21 +1,23 @@
 const customerService = require('../service/customer.service')
 
-const listAll = (req, res) => {
-    return customerService.listAll()
+const listAll = async (req, res) => {
+    const item = await customerService.listAll()
+    res.send(item)
 }
 
-const save = (req, res) => {
-    return customerService.save()
+const save = async (req, res) => {
+    const item = await customerService.save(req.body)
+    res.send(item)
 }
 
-
-const update = (erq, res) => {
-    customerService.update()
+const update = async (erq, res) => {
+    const item = await customerService.update(req.params.id, req.body)
+    res.send(item)
 }
 
-
-const remove = (req, res) => {
-    customerService.remove()
+const remove = async (req, res) => {
+    await customerService.remove(req.params.id)
+    res.send('Item removed with successful!')
 }
 
 module.exports = {
